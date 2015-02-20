@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json node-ejs@ No description
+5 warn package.json node-ejs@ No repository field.
+6 warn package.json node-ejs@ No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/ubuntu/workspace',
+8 verbose install   [ 'ejs',
+8 verbose install     'ejs-locals',
+8 verbose install     'express',
+8 verbose install     'mongoose',
+8 verbose install     'morgan',
+8 verbose install     'body-parser',
+8 verbose install     'cookieParser' ] ]
+9 info preinstall node-ejs@
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping ejs@^1.0.0 /home/ubuntu/workspace
+12 verbose already installed skipping ejs-locals@^1.0.2 /home/ubuntu/workspace
+13 verbose already installed skipping express@^4.6.1 /home/ubuntu/workspace
+14 verbose already installed skipping mongoose@^3.8.21 /home/ubuntu/workspace
+15 verbose already installed skipping morgan@^1.5.0 /home/ubuntu/workspace
+16 verbose already installed skipping body-parser@* /home/ubuntu/workspace
+17 verbose cache add [ 'cookieParser@*', null ]
+18 verbose cache add name=undefined spec="cookieParser@*" args=["cookieParser@*",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'cookieParser@*',
+19 verbose parsed url   path: 'cookieParser@*',
+19 verbose parsed url   href: 'cookieParser@*' }
+20 verbose cache add name="cookieParser" spec="*" args=["cookieParser","*"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '*',
+21 verbose parsed url   path: '*',
+21 verbose parsed url   href: '*' }
+22 verbose addNamed [ 'cookieParser', '*' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 90d419c3-cookieParser cookieParser@*
+25 verbose lock cookieParser@* /home/ubuntu/.npm/90d419c3-cookieParser.lock
+26 silly addNameRange { name: 'cookieParser', range: '*', hasData: false }
+27 verbose request where is /cookieParser
+28 verbose request registry https://registry.npmjs.org/
+29 verbose request id 22089524810142a5
+30 verbose url raw /cookieParser
+31 verbose url resolving [ 'https://registry.npmjs.org/', './cookieParser' ]
+32 verbose url resolved https://registry.npmjs.org/cookieParser
+33 verbose request where is https://registry.npmjs.org/cookieParser
+34 info trying registry request attempt 1 at 15:08:20
+35 http GET https://registry.npmjs.org/cookieParser
+36 http 404 https://registry.npmjs.org/cookieParser
+37 verbose headers { date: 'Mon, 22 Dec 2014 15:08:20 GMT',
+37 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+37 verbose headers   'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=0',
+37 verbose headers   'content-length': '52',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   age: '0',
+37 verbose headers   'x-served-by': 'cache-lcy1135-LCY',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1419260900.137611,VS0,VE86',
+37 verbose headers   'keep-alive': 'timeout=10, max=50',
+37 verbose headers   connection: 'Keep-Alive' }
+38 silly registry.get cb [ 404,
+38 silly registry.get   { date: 'Mon, 22 Dec 2014 15:08:20 GMT',
+38 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+38 silly registry.get     'content-type': 'application/json',
+38 silly registry.get     'cache-control': 'max-age=0',
+38 silly registry.get     'content-length': '52',
+38 silly registry.get     'accept-ranges': 'bytes',
+38 silly registry.get     via: '1.1 varnish',
+38 silly registry.get     age: '0',
+38 silly registry.get     'x-served-by': 'cache-lcy1135-LCY',
+38 silly registry.get     'x-cache': 'MISS',
+38 silly registry.get     'x-cache-hits': '0',
+38 silly registry.get     'x-timer': 'S1419260900.137611,VS0,VE86',
+38 silly registry.get     'keep-alive': 'timeout=10, max=50',
+38 silly registry.get     connection: 'Keep-Alive' } ]
+39 silly lockFile 90d419c3-cookieParser cookieParser@*
+40 silly lockFile 90d419c3-cookieParser cookieParser@*
+41 error 404 404 Not Found: cookieParser
+41 error 404
+41 error 404 'cookieParser' is not in the npm registry.
+41 error 404 You should bug the author to publish it
+41 error 404 It was specified as a dependency of 'node-ejs'
+41 error 404
+41 error 404 Note that you can also install from a
+41 error 404 tarball, folder, or http url, or git url.
+42 error System Linux 3.14.13-c9
+43 error command "/home/ubuntu/.nvm/v0.10.33/bin/node" "/home/ubuntu/.nvm/v0.10.33/bin/npm" "install"
+44 error cwd /home/ubuntu/workspace
+45 error node -v v0.10.33
+46 error npm -v 1.4.28
+47 error code E404
+48 verbose exit [ 1, true ]

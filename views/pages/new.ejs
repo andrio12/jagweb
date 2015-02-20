@@ -1,0 +1,10 @@
+<!-- views/pages/new.ejs -->
+<% layout('../layout') -%>
+
+<main>
+    <form method="post" action="/new">
+        <p><input type="text" name="post_title" placeholder="title"></p>
+        <p><textarea rows="10" cols="80" name="post_body"></textarea></p>
+        <p><input type="submit" text="Submit"></p>
+    </form>
+</main>

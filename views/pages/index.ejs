@@ -1,0 +1,26 @@
+<!-- views/pages/index.ejs -->
+<% layout('../layout') -%>
+
+	<main>
+		<div class="jumbotron">
+			<h1>This is greater bix</h1>
+            <p>Velkomin user</p>
+            <p><a href="/new">Nýtt</a></p>
+            <p><a href="/articles">Articles</a></p>
+            <h2>Loop</h2>
+            <ul>
+            	<% posts.forEach(function(post) { %>
+            		<li><a href="/<%= post.slug %>"><%= post.title %></a></li>
+            	<% }); %>
+            </ul>
+		</div>
+		
+		<div class="container">
+    		<h1>Halló BOOJA!</h1>
+    		<div ng-controller="maincontroller">
+    			<h1>Hello {{search}}</h1>
+    			<input type="text" ng-model="search">
+    		</div>
+	    </div>
+	
+	</main>

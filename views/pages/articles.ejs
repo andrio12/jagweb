@@ -1,0 +1,27 @@
+<!-- views/pages/about.ejs -->
+<% layout('../layout') -%>
+	<main>
+		<div class="row">
+			<div class="col-sm-8">
+			
+				<div class="jumbotron">
+					<h1>All news</h1>
+					<p>Welcome to templating using EJS</p>
+					<h2>Loop da loop</h2>
+			            <ul>
+			            	<% posts.forEach(function(post) { %>
+			            		<li><a href="/<%= post.slug %>"><%= post.title %></a></li>
+			            	<% }); %>
+			            </ul>
+				</div>
+				
+			</div>
+			<div class="col-sm-4">
+				
+				<div class="well">
+					<h3>News by catagory</h3>
+				</div>
+
+			</div>
+		</div>
+	</main>
